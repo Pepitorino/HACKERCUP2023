@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html, body {
+    height: 100%;
+    overflow:hidden;
+    color: #fdfbfb;
+    font-family: Raleway;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 100%;
+    justify-content: center;
+}
+
+.cities {
+    background-color: #397d5a;
+    width: 20%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.cities::-webkit-scrollbar {
+    display: none;
+}
+  
+.cities {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.cities>a {
+    color: #fdfbfb;
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.cities>a:hover {
+    color: #99391B;
+}
+
+.map {
+    width:80%;
+    align-items: center;
+    justify-content: center;
+    opacity:0.10;
+}
+
+.barangaymap {
+    width:800px;
+    transform: translate(10%, 10%);
+}
+
+#barangay {
+    position:absolute;
+    margin:10%;
+}
+
+#close {
+    position:absolute;
+    color: black;
+    margin-left:50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.info {
+    position: absolute;
+    color: #397d5a;
+    margin:25%;
+}

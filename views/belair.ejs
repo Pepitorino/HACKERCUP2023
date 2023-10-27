@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('header.ejs') %>
+    <link rel = "stylesheet" href = "style/belair.css">
+</head>
+<body>
+    <%- include('menu.ejs') %>
+    </div>
+
+    <div class="map" onclick="window.location.href='makati';">
+        <img src="image/Ph_fil_makati_barangay.png" alt="makati barangays" class="barangaymap" usemap="#makati">
+    </div>
+
+    <img src="image/belair_masked.png" alt="" style="position:absolute" id="barangay">
+    <div class="info">
+        <h3 id="population">Population: 36,007</h3>
+        <h3 id="totalarea">Total Area: 1,712,000 mˆ2</h3>
+        <h3 id="greenery">Current Greenery(%): 6.08</h3>
+    </div>
+</body>
+</html>
